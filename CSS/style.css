@@ -166,3 +166,27 @@ border-color:white;
     letter-spacing: 5px;
     text-align: center;
 }
+h3{
+    background-color: white;
+    color: black;
+}
+.img{
+    width: 350px;
+    height: 450px;
+}
+.tanle{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.iii{
+    width: 300px;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-title{
+    text-align: center;
+}
