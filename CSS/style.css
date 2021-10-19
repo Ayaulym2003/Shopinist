@@ -5,7 +5,6 @@ body{
 }
 
 .head{
-    
     display: flex;
     justify-content: space-around;
     height: 80px;
@@ -181,6 +180,7 @@ h3{
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 15px;
 }
 
 .iii{
@@ -191,4 +191,7 @@ h3{
 }
 .modal-title{
     text-align: center;
+}
+a{
+    color: black;
 }
