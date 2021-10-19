@@ -41,7 +41,6 @@ h3{
     background-color: white;
     color: black;
 }
-<<<<<<< HEAD:css/style.css
 
 *{
     margin:0px;
@@ -165,25 +164,5 @@ border-color:white;
 .txt{
     font-size: 40px;
     letter-spacing: 5px;
-=======
-.img{
-    width: 350px;
-    height: 450px;
-}
-.tanle{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.iii{
-    width: 300px;
-}
-.modal-body{
-    text-align: center;
-}
-.modal-title{
->>>>>>> 181f46b09cc6f9fa29d3bb62fd6833911394429d:style.css
     text-align: center;
 }
