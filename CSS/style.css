@@ -358,7 +358,7 @@ label{
     .head{
         width: 550px;
         display: block;
-        height: 600px;
+        height: 550px;
         text-align: center;
         padding-top: 30px;
     }
@@ -476,5 +476,8 @@ display:block;
    }
      .col-sm-3{
          text-align: center;
+     }
+     .sh{
+         margin-top: 20px;
      }
 }
