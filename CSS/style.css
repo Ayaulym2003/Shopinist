@@ -1,7 +1,5 @@
 body{
-    margin: 0 auto;
-    min-width: 1000px;
-    max-width: auto;
+   
 }
 
 .head{
@@ -46,6 +44,19 @@ h3{
     margin:0px;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pictures{
     display:flex;
     justify-content: space-between;
@@ -65,6 +76,9 @@ h3{
     padding-top:40px;
 }
 .pictures .pic1 p{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:10px;
     margin-top:30px;
     font-weight: 600;
     font-size: 18px;
@@ -80,7 +94,8 @@ h3{
      padding-right:600px;
      border:2px solid white;
      margin-bottom: 100px;
-}
+
+    }
 .sa2021 .coll .tx{
     padding-top:30px;
     padding-bottom: 30px;
@@ -94,6 +109,25 @@ font-size: 20px;
 
 }
 .photos{
+  
+    display:flex;
+    justify-content: space-between;
+    margin-right: 2px;
+    margin-left:2px;        
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+.photos{
+    margin:0 auto;
     width: auto;
     display:flex;
     justify-content: space-between;
@@ -118,6 +152,7 @@ text-indent: 50px;
 }
 
 .tail .f1 h3{
+    font-size: 17px;
     background-color: rgb(250, 250, 250) ;
     color: black;
     font-family: 'Titillium Web', sans-serif;
@@ -194,4 +229,252 @@ h3{
 }
 a{
     color: black;
+}
+
+.m{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size:60px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: 'Titillium Web', sans-serif; 
+}
+.photoab{
+    display:flex;
+    justify-content: space-between;
+    padding-left:240px;
+    padding-right: 240px;
+    padding-bottom: 90px;
+
+}
+.des{
+    text-align: center;
+    font-size: 18px;
+    padding-left:300px;
+    padding-right: 300px;
+    font-family: 'Zilla Slab', serif;
+    text-indent: 18px;
+    padding-bottom: 170px;;
+    line-height: 1.8;
+}
+.des>div{
+    padding-bottom: 20px;
+   
+}
+
+.about{
+    margin: auto;
+    background-color: rgb(242, 242, 243);
+     
+}
+.photoab .i{
+    padding-top:50px;
+}
+
+.contact{
+background-image: url(https://azarchdesign.com/wp-content/uploads/2021/02/image-2048x1366.png); 
+  background-size: cover;
+   background-repeat: no-repeat; 
+   color:black;
+
+    font-weight: 500;
+ display:flex;
+ justify-content: space-between;
+padding-left: 300px;
+padding-top:130px;
+padding-bottom:130px;
+padding-right: 300px;
+ 
+}
+.contact h3{
+    
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+.contact p{
+    color: rgb(150, 150, 150);
+    padding-bottom: 2px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+.contact .hh1{
+    padding: 30px;
+   background-color: white;
+    text-align: center;
+    width:430px;
+}
+.contact .hh2{
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    width:430px;
+}
+
+
+.nav{
+    float: left;
+}
+label{
+    margin: 15px;
+    font-size: 30px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+.tt{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+@media(max-width: 600px){
+  .photos{
+      padding-top:20px;
+      padding-bottom:20px;
+      height: 100px;
+  }
+    .photos img{
+     width:120px;
+     height:120px;
+ }
+ .photos>div{
+     display:none;
+ }
+    .body{
+       margin:0px;
+   }
+    .items{
+        margin: 0 auto;
+    }
+   
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .head{
+        width: 550px;
+        display: block;
+        height: 600px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .btn{
+        font-size: 20px;
+        margin-top: 40px;
+        border-bottom: 1px solid black;
+    }
+    #ee{
+        margin-right: 40px;
+    }
+    .input{
+        width: 300px;
+      padding-top: 20px;
+      margin-left: 120px;
+  }
+  .input-group{
+      font-size: 20px;
+  }
+  .carousel{
+      width: auto;
+      height: 500px;
+  }
+  .carousel-item{
+      height: 500px;
+  }
+  .t{
+      width: 175px;
+  }
+  .cc{
+      padding-top: 60px;
+  }
+
+  .sa2021 .coll{
+    background-color: rgb(252, 227, 197);
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 100px;
+     padding-bottom: 100px;
+    
+     border:2px solid white;
+     margin-bottom: 100px;
+
+    }
+    .sa2021 .coll .tx{
+        
+        padding:20px;
+    }
+    .input{
+        margin-top: 10px;
+    }
+.options{
+    margin-bottom: 30px;
+    margin-left: 130px
+}
+.pictures{
+    display:block;
+  margin:0px;
+}
+.pictures .pic1 img{
+    width:400px;
+     padding:0px;
+}
+.pictures .pic2 img{
+    width:482px;
+    height: 600px;
+     padding:0px;
+}
+.options{
+    display:block;
+   
+
+}
+.contact{
+    display:block;
+    padding:25px;
+    padding-bottom:170px ;
+    padding-top:170px;
+   
+}
+.des{
+    padding-left:5px;
+    padding-right: 5px;
+    padding-top:15px ;
+    padding-bottom: 15px;
+   
+}
+.photoab{
+    padding:0px;
+display:block;
+}
+.end{
+    margin-top: 50px;
+}
+ .end .tail{
+    
+    display:block;
+    padding:0px;
+}
+.end .tail .f1{
+    border-bottom: 2px solid rgb(199, 194, 185);
+    padding-bottom: 8px;
+    padding-top: 15px;
+}
+  #toggle:checked + .head {
+      display: none;
+
+  }
+   .hh1{
+       margin-left: 40px;
+     
+   }
+   .hh2{
+       margin-left: 40px;
+   }
+     .col-sm-3{
+         text-align: center;
+     }
 }
